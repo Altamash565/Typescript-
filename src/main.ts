@@ -1,2 +1,2 @@
-let firstName: string = "Altamash";
+let firstName: string = "John";
 console.log(firstName)

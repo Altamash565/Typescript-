@@ -3,8 +3,9 @@
         "target": "es6",
         "module": "es6",
         "outDir": "./dist",
-        "rootDir": ".src",
-        "strict": true
+        "rootDir": "./src",
+        "strict": true,
+        "moduleDetection": "force"
     },
     "include": ["src/**/*.ts"]
 }
