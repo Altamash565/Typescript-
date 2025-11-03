@@ -1,4 +1,4 @@
-type Address = {
+interface Address  {
     country: string;
     zipcode: string;
     houseNumber: number;

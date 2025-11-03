@@ -13,7 +13,27 @@ type Age = number
 //     age?: number;
 // }
 
-import { Person } from "./my-interface";
+import { Person as BasePerson} from "./my-interface";
+
+// interface Person extends BasePerson {
+//     heightInCm: number
+// }
+
+type Person = BasePerson & {
+    heightinCm: number
+}
+// interface A {
+//     prop1: string;
+// }
+
+// interface B extends A {
+//     prop2: string
+// }
+
+// const obj: B = {
+//     prop1: "afsd",
+//     prop2: "sdfasz"
+// }
 
 const person: Person = {
     firstName: "Altamash",
@@ -24,7 +44,8 @@ const person: Person = {
         houseNumber: 12,
         city: "string",
         state: "string"
-    }
+    },
+    heightinCm: 175,
 }
 
 console.log(person)
