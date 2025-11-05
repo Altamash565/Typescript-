@@ -31,3 +31,5 @@ const persons: readonly Person[] = [{
 // array with fixed size and types
 type myCustomTupletype = [string, string, number]
 const myCustomTuple: [string, string, number] = ["string1", "string2", 12]
+
+
