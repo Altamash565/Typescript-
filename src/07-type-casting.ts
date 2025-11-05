@@ -15,7 +15,7 @@ function addOrConcat(a: number, b:number, c:"add" | "concat"):number | string {
 
 const value: string = addOrConcat(2,2, "concat") as string 
 const value2: number = addOrConcat(2,4, "add") as number
-const value3: number = <number>addOrConcat(2,5, ,"add") // tsx, jsx      
+const value3: number = <number>addOrConcat(2,5, "add") // tsx, jsx      
 
 //DOM
 // selet input fields
